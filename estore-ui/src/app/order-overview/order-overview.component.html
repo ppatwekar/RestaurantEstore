@@ -1,0 +1,16 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+</nav>
+
+<div class="container">
+  <h1>Orders</h1>
+  <div class="row order" *ngFor="let order of orders">
+    <a class="col-md-1" routerLink="/order-detail/{{order.id}}"><img src="{{order.dishes[0].imageurl}}" alt="Dish Image"></a>
+    <div class="col-md-9">
+      <a routerLink="/order-detail/{{order.id}}"><h2 class="order-name">Order {{order.id}}</h2></a>
+    </div>
+    <button class="btn btn-primary col-md-2" (click)="goToOrderDetail(order.id);">Detail</button>
+  </div>
+</div>

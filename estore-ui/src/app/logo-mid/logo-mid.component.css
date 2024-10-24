@@ -1,0 +1,12 @@
+button{
+  position: fixed !important;
+  left: 40%;
+}
+
+button img{
+  height: 40px;
+}
+
+button img:hover{
+  box-shadow: none !important;
+}

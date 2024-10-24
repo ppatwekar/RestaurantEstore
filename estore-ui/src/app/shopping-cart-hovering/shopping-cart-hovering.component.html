@@ -1,0 +1,21 @@
+<div class="hovering-cart" *ngIf="this.webMessage.isCartVisible">
+  <div class="hovering-cart-header">
+    <a routerLink="/shopping-cart"><h5>Total: ${{this.totalValue}}</h5></a>
+    <a routerLink="/shopping-cart"><h4>Shopping Cart</h4></a>
+  </div>
+  <div class="hovering-cart-area">
+
+    <div class="hovering-cart-dish" *ngFor="let dish of foodDishes">
+      <a routerLink="/menu-dish-detail/{{dish.id}}" class="hovering-cart-img"><img src="{{dish.imageurl}}" alt="Dish Image"></a>
+      <div class="hovering-cart-text">
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><strong>{{dish.name}}</strong></a>
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><p>Price: ${{dish.cost}}</p></a>
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><p>Quantity: {{dish.quantity}}</p></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+

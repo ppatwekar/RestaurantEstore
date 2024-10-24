@@ -1,0 +1,144 @@
+.quantityBox{
+  width: 50px;
+  line-height: 30px;
+}
+
+.operator{
+  background-color: transparent;
+  border-style: solid;
+  width: 30px;
+
+}
+
+.quantity{
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.quantityBox{
+  height: 60px;
+  width: auto;
+}
+
+.dishPage{
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 3px 3px 5px #7d7300;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+.customized-dish-img{
+  width: 750px;
+  margin-left: 50px;
+  z-index: 0;
+  animation-name: dishImage;
+  animation-duration: 1s;
+}
+
+@keyframes dishImage{
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
+
+.img-line{
+  float: left;
+  position: absolute;
+  object-fit: cover;
+}
+
+.rice-line{
+  margin-left: -750px;
+  animation-name: selectLine;
+  animation-duration: 3s;
+}
+
+.topping-line{
+  margin-left: -750px;
+  animation-name: selectLine;
+  animation-duration: 3s;
+}
+
+@keyframes selectLine{
+  0% {height: 0; margin-top: 375px;}
+  25% {height: 0; margin-top: 375px;}
+  100% {height: 750px; margin-top: 0px;}
+}
+
+
+.rice-select select{
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 690px;
+  margin-top: -690px;
+  animation-name: selectContent;
+  animation-duration: 2.3s;
+}
+
+.rice-select label{
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 640px;
+  margin-top: -680px;
+  animation-name: selectContent;
+  animation-duration: 2.3s;
+}
+
+.topping-select select{
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-top: -640px;
+  animation-name: selectContent;
+  animation-duration: 2.3s;
+}
+
+.topping-select label{
+  float: left;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-top: -630px;
+  animation-name: selectContent;
+  animation-duration: 2.3s;
+}
+
+@keyframes selectContent{
+  0% {opacity: 0;}
+  80% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+select{
+  border-width: 2px;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.quantity-text{
+  float: left;
+  padding-right: 20px;
+}
+
+.customize-description{
+  margin-bottom: 1px;
+}
+
+.custom-area{
+  margin-left: 80px;
+}
+
+@media screen and (max-width: 1600px){
+  .custom-area{
+    margin-left: -25px;
+  }
+}

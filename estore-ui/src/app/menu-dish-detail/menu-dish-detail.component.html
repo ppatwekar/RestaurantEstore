@@ -1,0 +1,26 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+</nav>
+<app-shopping-cart-hovering></app-shopping-cart-hovering>
+<div class="container">
+  <div class="row dish-detail dishPage" *ngIf="dish">
+    <img class="col-md-6" src="{{dish.imageurl}}" alt="Dish Image">
+    <div class="col-md-6">
+      <h1>{{dish.name}}</h1>
+      <h4><strong>Price</strong>: ${{dish.cost}}</h4>
+      <h4>{{dish.quantity}} left in stock</h4>
+      <h4>Recipe:</h4>
+      <p>{{dish.recipe}}</p>
+      <h4>Description:</h4>
+      <p>{{dish.description}}</p>
+      <div class="quantityBox">
+        <button class="operator" (click)="decreaseQuantity();">-</button>
+        <span class="quantity">{{addQuantity}}</span>
+        <button class="operator" (click)="increaseQuantity(dish.quantity);">+</button>
+      </div>
+      <button class="btn btn-primary add-to-cart" (click)="this.addToCart();">Add to Cart</button>
+    </div>
+  </div>
+</div>

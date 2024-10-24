@@ -1,0 +1,24 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+  <div class="searchBox">
+    <input #searchBox id="search-box" placeholder="Search for dishes"/>
+    <button (click)="this.getFoodDishesBySearch(searchBox.value)"><img src="../assets/search.svg" alt="Search"></button>
+  </div>
+</nav>
+<app-shopping-cart-hovering></app-shopping-cart-hovering>
+<div class="col-md-12 customize">
+  <button class="btn btn-light customize-button" (click)="navigateToCustomizePage();"><img src="../assets/customize dish button.png" alt="Customize Dish"></button>
+</div>
+<div class="container" style="padding-top: 20px;">
+  <div class="row dishPage">
+    <div class="col-md-4 dishGrid" *ngFor="let dish of foodDishes">
+      <div class="dishBorder">
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><img src="{{dish.imageurl}}" alt="Dish Image"></a>
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><strong>{{dish.name}}</strong></a>
+        <a routerLink="/menu-dish-detail/{{dish.id}}"><p>Price: ${{dish.cost}} / bowl</p></a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,79 @@
+.hovering-cart{
+  position:fixed;
+  top:10%;
+  right:20px;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 3px 3px 5px #7d7300;
+  padding: 8px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+.hovering-cart-area{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border-color: rgba(200,200,200,0.5);
+  border-width: 1px;
+  border-style: solid;
+  width: 300px;
+  height: 400px;
+}
+
+.hovering-cart-area::-webkit-scrollbar{
+  display: none;
+}
+
+.hovering-cart-dish{
+  border-bottom: 2px solid rgba(200,200,200,0.5);
+  padding: 20px;
+}
+
+.hovering-cart-img img{
+  width: 65px;
+  height: 65px;
+  float: left;
+  position: relative;
+  object-fit: cover;
+  border-radius: 5px;
+  -webkit-transition: filter 0.5s linear;
+  -moz-transition: filter 0.5s linear;
+  transition: filter 0.5s linear;
+}
+
+.hovering-cart-img img:hover{
+  filter: brightness(80%);
+}
+
+.hovering-cart-text{
+  margin-left: 80px;
+}
+
+.hovering-cart-text a{
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.hovering-cart-text a:hover{
+  color: #707070;
+  text-decoration: none;
+}
+
+.hovering-cart-text p{
+  margin-bottom: 0;
+}
+
+.hovering-cart-header a{
+  color: #1a1a1a;
+}
+
+.hovering-cart-header a:hover{
+  color: #707070;
+  text-decoration: none;
+}
+
+h5{
+  float: right;
+  margin-top: 3px;
+}

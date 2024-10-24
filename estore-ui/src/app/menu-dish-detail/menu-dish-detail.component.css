@@ -1,0 +1,47 @@
+.dish-detail img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.dishPage{
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 3px 3px 5px #7d7300;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+.quantityBox{
+  width: 50px;
+  line-height: 30px;
+}
+
+.operator{
+  background-color: transparent;
+  border-style: solid;
+  width: 30px;
+
+}
+
+.quantity{
+  padding: 10px;
+  border: 0px solid black;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.quantityBox{
+  height: 60px;
+  width: auto;
+}
+
+h1{
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgba(200,200,200,0.5);
+  margin-bottom: 10px;
+}

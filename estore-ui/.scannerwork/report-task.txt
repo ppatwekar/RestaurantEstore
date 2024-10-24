@@ -1,0 +1,6 @@
+projectKey=e-store-app
+serverUrl=http://localhost:9000
+serverVersion=9.7.0.61563
+dashboardUrl=http://localhost:9000/dashboard?id=e-store-app
+ceTaskId=AYSyGs6XENPoq0amr4LS
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYSyGs6XENPoq0amr4LS

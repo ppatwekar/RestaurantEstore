@@ -1,0 +1,26 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+</nav>
+<div class="container">
+  <h3>Total: ${{this.totalValue}}</h3>
+  <h1>Shopping Cart</h1>
+  <div class="cart-dish row" *ngFor="let dish of foodDishes">
+    <a routerLink="/menu-dish-detail/{{dish.id}}" class="col-md-3"><img src="{{dish.imageurl}}" alt="Dish Image"></a>
+    <div class="col-md-7">
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h2>{{dish.name}}</h2></a>
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h4>Price: ${{dish.cost}}</h4></a>
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h4>Recipe: {{dish.recipe}}</h4></a>
+    </div>
+    <div class="col-md-2">
+      <div class="quantityBox">
+        <button class="operator" (click)="decreaseQuantity(dish.id, dish.quantity);">-</button>
+        <span class="quantity">{{dish.quantity}}</span>
+        <button class="operator" (click)="increaseQuantity(dish.id, dish.quantity);">+</button>
+      </div>
+      <button class="btn btn-danger remove" (click)="removeDish(dish.id);">Remove</button>
+    </div>
+  </div>
+  <button class="btn btn-info checkout" (click)="checkOut();">Checkout</button>
+</div>

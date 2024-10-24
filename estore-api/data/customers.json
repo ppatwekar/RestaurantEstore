@@ -1,0 +1,9 @@
+[
+    {"id":1000,"username":"raviprakash","password":"123","firstName":"Ravi","lastName":"Prakash","email":"raviprakash@gmail.com","phone":"585500","address":"123/4, 12th street, Rochester, 14623"},
+    {"id":1001,"username":"sumitmahto","password":"123","firstName":"Sumit Kumar","lastName":"Mahto","email":"sumitmahto@gmail.com","phone":"585501","address":"178/9, 17th street, Rochester, 14623"},
+    {"id":1002,"username":"jamesray","password":"123","firstName":"James","lastName":"Ray","email":"jamesray@gmail.com","phone":"585502","address":"997/2, 82th street, Rochester, 14623"},
+    {"id":1003,"username":"cooperShay","password":"123","firstName":"Cooper","lastName":"Shay","email":"cooperShay@gmail.com","phone":"585509","address":"238/9, 19th street, Rochester, 14623"},
+    {"id":1004,"username":"seangray","password":"123","firstName":"Sean","lastName":"Gray","email":"seangray@gmail.com","phone":"585519","address":"234/90, 39th street, Rochester, 14623"},
+    {"id":1005,"username":"seancraig","password":"123","firstName":"Sean","lastName":"Craig","email":"seancraig@gmail.com","phone":"583519","address":"234/97, 29th street, Rochester, 14623"},
+    {"id":1006,"username":"seancraigslist","password":"123","firstName":"Sean","lastName":"Craigslist","email":"seancraigslist@gmail.com","phone":"583519","address":"234/97, 29th street, Rochester, 14623"}
+]

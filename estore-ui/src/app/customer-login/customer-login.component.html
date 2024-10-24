@@ -1,0 +1,19 @@
+<nav>
+  <app-logo-mid></app-logo-mid>
+  <button class="right-icon" (click)="this.goAdminLoginPage();"><img src="../assets/admin.svg" alt="Admin Login Port"></button>
+</nav>
+<div class="container">
+  <h2>Log in</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Username:</label>
+      <input type="text" class="form-control" #username placeholder="Username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" #password placeholder="Password">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="this.customerLogin(username.value, password.value);">Login</button>
+    <button type="button" class="btn btn-info left-space" (click)="this.goRegistrationPage();">Register</button>
+  </form>
+</div>

@@ -1,0 +1,224 @@
+[
+    {
+        "id": 1000000000,
+        "customerId": 1002,
+        "dishes": [
+            {
+                "id": 14,
+                "name": "Shrimp Chop Suey",
+                "cost": 9.99,
+                "quantity": 6,
+                "recipe": "Shrimp, Garlic, Yellow onion, Carrots, Red bell pepper, Cooking wine, Oyster sauce, Sesame oil",
+                "description": "Shrimp chop suey is a delicious Chinese restaurant classic that combines fresh vegetables, juicy shrimp, and a flavorful stir fry sauce.",
+                "imageurl": "../assets/dishImages/ShrimpChopSuey.jpg"
+            },
+            {
+                "id": 15,
+                "name": "Spicy Beef Ramen",
+                "cost": 3.99,
+                "quantity": 4,
+                "recipe": "Ground beef, Garlic, Salt, Pepper, Rice wine vinegar, Egg, Ramen, Sesame seeds, Green onion",
+                "description": "Spicy Beef Ramen takes Ramen noodles to a spicy level with added ground beef, crushed red pepper, and chili garlic sauce, all topped with a soft boiled egg.",
+                "imageurl": "../assets/dishImages/SpicyBeefRamen.jpg"
+            },
+            {
+                "id": 16,
+                "name": "Fish Sizzler",
+                "cost": 12.99,
+                "quantity": 8,
+                "recipe": "Boneless fish, Onion, Garlic, Yogurt, Cumin seeds, Paprika powder, Kabab cheeni powder, Red chili paste, Sesame seeds, Vinegar, Papaya paste, Clarified Butter, Salt",
+                "description": "There is nothing quite as mouth-watering as a sizzler. Try out this sizzler. The perfect dish for seafood lovers.",
+                "imageurl": "../assets/dishImages/FishSizzler.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000001,
+        "customerId": 1002,
+        "dishes": [
+            {
+                "id": 11,
+                "name": "Chicken Fried Rice",
+                "cost": 9.99,
+                "quantity": 3,
+                "recipe": "Brown rice, Chick breasts, Toasted sesame oil, Vegetable oil, Frozen peas and carrots blend, Green onions, Garlic, Eggs, Low-sodium soy sauce",
+                "description": "Chicken Fried Rice is one of the best weeknight dinners around! It is a homemade version of my favorite take-out classic. We all had that ham fried rice growing up but move over ham because the chicken variation is 100 times better!",
+                "imageurl": "../assets/dishImages/ChickenFriedRice.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Hot Sauce Style Chicken",
+                "cost": 13.99,
+                "quantity": 2,
+                "recipe": "Chicken, Hot sauce, Cayenne pepper, Garlic, Onion, Smoked paprika, Chipotle chile powder, Salt, Flour, Buttermilk, Vegetable oil",
+                "description": "Nashville Style Hot Fried Chicken is famous for its spiciness!  One bite and you will be hooked!  It will become your favorite fried chicken indulgence for dinner or your next picnic! You will love this baked beans recipe with it!",
+                "imageurl": "../assets/dishImages/HotSauceStyleChicken.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Chicken Dumplings",
+                "cost": 7.99,
+                "quantity": 30,
+                "recipe": "Chicken, Flour, Green onion, Vegetable oil, Salt, Ginger",
+                "description": "Steamed chicken dumplings can be incredibly comforting and flavorful! Yes, they are a labor of love, but most definitely worth it. And they taste so much better than store-bought frozen dumplings!",
+                "imageurl": "../assets/dishImages/ChickenDumplings.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000002,
+        "customerId": 1003,
+        "dishes": [
+            {
+                "id": 14,
+                "name": "Shrimp Chop Suey",
+                "cost": 9.99,
+                "quantity": 6,
+                "recipe": "Shrimp, Garlic, Yellow onion, Carrots, Red bell pepper, Cooking wine, Oyster sauce, Sesame oil",
+                "description": "Shrimp chop suey is a delicious Chinese restaurant classic that combines fresh vegetables, juicy shrimp, and a flavorful stir fry sauce.",
+                "imageurl": "../assets/dishImages/ShrimpChopSuey.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000003,
+        "customerId": 1004,
+        "dishes": [
+            {
+                "id": 14,
+                "name": "Shrimp Chop Suey",
+                "cost": 9.99,
+                "quantity": 5,
+                "recipe": "Shrimp, Garlic, Yellow onion, Carrots, Red bell pepper, Cooking wine, Oyster sauce, Sesame oil",
+                "description": "Shrimp chop suey is a delicious Chinese restaurant classic that combines fresh vegetables, juicy shrimp, and a flavorful stir fry sauce.",
+                "imageurl": "../assets/dishImages/ShrimpChopSuey.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000004,
+        "customerId": 1005,
+        "dishes": [
+            {
+                "id": 14,
+                "name": "Shrimp Chop Suey",
+                "cost": 9.99,
+                "quantity": 5,
+                "recipe": "Shrimp, Garlic, Yellow onion, Carrots, Red bell pepper, Cooking wine, Oyster sauce, Sesame oil",
+                "description": "Shrimp chop suey is a delicious Chinese restaurant classic that combines fresh vegetables, juicy shrimp, and a flavorful stir fry sauce.",
+                "imageurl": "../assets/dishImages/ShrimpChopSuey.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000005,
+        "customerId": 1006,
+        "dishes": [
+            {
+                "id": 14,
+                "name": "Shrimp Chop Suey",
+                "cost": 9.99,
+                "quantity": 1,
+                "recipe": "Shrimp, Garlic, Yellow onion, Carrots, Red bell pepper, Cooking wine, Oyster sauce, Sesame oil",
+                "description": "Shrimp chop suey is a delicious Chinese restaurant classic that combines fresh vegetables, juicy shrimp, and a flavorful stir fry sauce.",
+                "imageurl": "../assets/dishImages/ShrimpChopSuey.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000006,
+        "customerId": 1006,
+        "dishes": [
+            {
+                "id": 11,
+                "name": "Chicken Fried Rice",
+                "cost": 9.99,
+                "quantity": 2,
+                "recipe": "Brown rice, Chick breasts, Toasted sesame oil, Vegetable oil, Frozen peas and carrots blend, Green onions, Garlic, Eggs, Low-sodium soy sauce",
+                "description": "Chicken Fried Rice is one of the best weeknight dinners around! It is a homemade version of my favorite take-out classic. We all had that ham fried rice growing up but move over ham because the chicken variation is 100 times better!",
+                "imageurl": "../assets/dishImages/ChickenFriedRice.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000007,
+        "customerId": 1006,
+        "dishes": [
+            {
+                "id": 11,
+                "name": "Chicken Fried Rice",
+                "cost": 9.99,
+                "quantity": 1,
+                "recipe": "Brown rice, Chick breasts, Toasted sesame oil, Vegetable oil, Frozen peas and carrots blend, Green onions, Garlic, Eggs, Low-sodium soy sauce",
+                "description": "Chicken Fried Rice is one of the best weeknight dinners around! It is a homemade version of my favorite take-out classic. We all had that ham fried rice growing up but move over ham because the chicken variation is 100 times better!",
+                "imageurl": "../assets/dishImages/ChickenFriedRice.jpg"
+            },
+            {
+                "id": 12,
+                "name": "Hot Sauce Style Chicken",
+                "cost": 13.99,
+                "quantity": 1,
+                "recipe": "Chicken, Hot sauce, Cayenne pepper, Garlic, Onion, Smoked paprika, Chipotle chile powder, Salt, Flour, Buttermilk, Vegetable oil",
+                "description": "Nashville Style Hot Fried Chicken is famous for its spiciness!  One bite and you will be hooked!  It will become your favorite fried chicken indulgence for dinner or your next picnic! You will love this baked beans recipe with it!",
+                "imageurl": "../assets/dishImages/HotSauceStyleChicken.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Chicken Dumplings",
+                "cost": 7.99,
+                "quantity": 3,
+                "recipe": "Chicken, Flour, Green onion, Vegetable oil, Salt, Ginger",
+                "description": "Steamed chicken dumplings can be incredibly comforting and flavorful! Yes, they are a labor of love, but most definitely worth it. And they taste so much better than store-bought frozen dumplings!",
+                "imageurl": "../assets/dishImages/ChickenDumplings.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000008,
+        "customerId": 1002,
+        "dishes": [
+            {
+                "id": 12,
+                "name": "Hot Sauce Style Chicken",
+                "cost": 13.99,
+                "quantity": 1,
+                "recipe": "Chicken, Hot sauce, Cayenne pepper, Garlic, Onion, Smoked paprika, Chipotle chile powder, Salt, Flour, Buttermilk, Vegetable oil",
+                "description": "Nashville Style Hot Fried Chicken is famous for its spiciness!  One bite and you will be hooked!  It will become your favorite fried chicken indulgence for dinner or your next picnic! You will love this baked beans recipe with it!",
+                "imageurl": "../assets/dishImages/HotSauceStyleChicken.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Chicken Dumplings",
+                "cost": 7.99,
+                "quantity": 2,
+                "recipe": "Chicken, Flour, Green onion, Vegetable oil, Salt, Ginger",
+                "description": "Steamed chicken dumplings can be incredibly comforting and flavorful! Yes, they are a labor of love, but most definitely worth it. And they taste so much better than store-bought frozen dumplings!",
+                "imageurl": "../assets/dishImages/ChickenDumplings.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1000000009,
+        "customerId": 1002,
+        "dishes": [
+            {
+                "id": 12,
+                "name": "Hot Sauce Style Chicken",
+                "cost": 13.99,
+                "quantity": 1,
+                "recipe": "Chicken, Hot sauce, Cayenne pepper, Garlic, Onion, Smoked paprika, Chipotle chile powder, Salt, Flour, Buttermilk, Vegetable oil",
+                "description": "Nashville Style Hot Fried Chicken is famous for its spiciness!  One bite and you will be hooked!  It will become your favorite fried chicken indulgence for dinner or your next picnic! You will love this baked beans recipe with it!",
+                "imageurl": "../assets/dishImages/HotSauceStyleChicken.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Chicken Dumplings",
+                "cost": 7.99,
+                "quantity": 2,
+                "recipe": "Chicken, Flour, Green onion, Vegetable oil, Salt, Ginger",
+                "description": "Steamed chicken dumplings can be incredibly comforting and flavorful! Yes, they are a labor of love, but most definitely worth it. And they taste so much better than store-bought frozen dumplings!",
+                "imageurl": "../assets/dishImages/ChickenDumplings.jpg"
+            }
+        ]
+    }
+]

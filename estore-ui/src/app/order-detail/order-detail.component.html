@@ -1,0 +1,21 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+</nav>
+
+<div class="container">
+  <h3>Total: ${{totalValue}}</h3>
+  <h1>Order {{orderId}} Detail</h1>
+  <div class="row order-dish" *ngFor="let dish of foodDishes">
+    <a class="col-md-3" routerLink="/menu-dish-detail/{{dish.id}}"><img src="{{dish.imageurl}}" alt="Dish Image"></a>
+    <div class="col-md-9">
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h2>{{dish.name}}</h2></a>
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h4>Price: ${{dish.cost}}</h4></a>
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h4>Quantity: {{dish.quantity}}</h4></a>
+      <a routerLink="/menu-dish-detail/{{dish.id}}"><h4>Recipe: {{dish.recipe}}</h4></a>
+    </div>
+  </div>
+  <button class="btn btn-danger delete-order" (click)="deleteOrder();">Delete Order</button>
+</div>
+

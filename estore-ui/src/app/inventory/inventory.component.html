@@ -1,0 +1,23 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <div class="searchBox">
+    <input #searchBox id="search-box" placeholder="Search for dishes"/>
+    <button (click)="this.getFoodDishesBySearch(searchBox.value)"><img src="../assets/search.svg" alt="Search"></button>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 dishGrid">
+      <button (click)="this.goToAddFoodDish();" class="add-button"><img src="../assets/add icon.svg" alt="Add"></button>
+    </div>
+    <div class="col-md-4 dishGrid" *ngFor="let dish of foodDishes">
+      <div class="dishBorder">
+        <a routerLink="/inventory-dish-detail/{{dish.id}}"><img src="{{dish.imageurl}}" alt="Dish Image"></a>
+        <a routerLink="/inventory-dish-detail/{{dish.id}}"><strong>{{dish.name}}</strong></a>
+        <a routerLink="/inventory-dish-detail/{{dish.id}}"><p>Price: ${{dish.cost}} | Quantity: {{dish.quantity}}</p></a>
+      </div>
+    </div>
+  </div>
+</div>
+

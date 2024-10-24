@@ -1,0 +1,23 @@
+button:hover{
+  text-decoration: underline !important;
+  text-decoration-color: black !important;
+}
+
+.left-space{
+  margin-left: 20px;
+}
+
+.btn{
+  height: 35px;
+  width: 80px;
+  padding: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  text-decoration: underline !important;
+  color: purple;
+}
+
+.btn:hover{
+  color: rgb(228, 0, 30);
+}
+

@@ -1,0 +1,56 @@
+<nav>
+  <app-login-and-user-status></app-login-and-user-status>
+  <app-logo-mid></app-logo-mid>
+  <app-right-icons></app-right-icons>
+</nav>
+<app-shopping-cart-hovering></app-shopping-cart-hovering>
+
+<div class="container">
+  <div class="row selector-row dishPage">
+
+    <div class="col-md-12">
+      <h1>Customize Rice</h1>
+    </div>
+
+    <div class="col-md-12 custom-area">
+      <img class="customized-dish-img" src="../assets/customizedDish.png" alt="Customized Dish Image">
+      <img class="customized-dish-img img-line rice-line" src="../assets/customizedDish_LineRice.png" alt="Rice Line">
+      <img class="customized-dish-img img-line topping-line" src="../assets/customizedDish_LineTopping.png" alt="Topping Line">
+      <div class="rice-select">
+        <label>Rice:</label>
+        <select name="rice" id="rice" #rice>
+          <option value="White rice">White rice</option>
+          <option value="Brown rice">Brown rice</option>
+          <option value="Black rice">Black rice</option>
+        </select>
+      </div>
+      <div class="topping-select">
+        <label>Topping:</label>
+        <select name="topping" id="topping" #topping>
+          <option value="Beef">Beef</option>
+          <option value="Curry">Curry</option>
+          <option value="Tofu">Tofu</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-md-12 customize-description">
+      <h4>Select a topping and a rice above and add it to your shopping cart.</h4>
+      <h3>Price: {{price}}</h3>
+    </div>
+
+
+    <div class="col-md-12">
+      <h3 class="quantity-text">Quantity: </h3>
+      <div class="quantityBox">
+        <button class="operator" (click)="decreaseQuantity();">-</button>
+        <span class="quantity">{{addQuantity}}</span>
+        <button class="operator" (click)="increaseQuantity();">+</button>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <button class="btn btn-primary add-to-cart" (click)="this.addCustomizedDish(rice.value, topping.value);">Add to Cart</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<nav>
+  <app-logo-mid></app-logo-mid>
+</nav>
+<div class="container">
+  <h2>Admin log in</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Username:</label>
+      <input type="text" class="form-control" #username placeholder="Username">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" #password placeholder="Password">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="this.adminLogin(username.value, password.value);">Login</button>
+  </form>
+</div>
